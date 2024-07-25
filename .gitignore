@@ -1,4 +1,8 @@
 __pycache__/
 .venv
+.astro
+.idea
+.env
+.DS_Store
 include/dataset/Online_Retail.csv
 include/gcp-cloud/gcp-cloud.json
