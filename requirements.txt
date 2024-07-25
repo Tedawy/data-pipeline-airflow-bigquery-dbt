@@ -1,0 +1,5 @@
+# Astro Runtime includes the following pre-installed providers packages: https://docs.astronomer.io/astro/runtime-image-architecture#provider-packages
+apache-airflow-providers-google==10.3.0
+google-cloud-bigquery-storage>=2.0.0
+astronomer-cosmos
+astro-sdk-python

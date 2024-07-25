@@ -1,0 +1,68 @@
+[0m14:56:15.972273 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d4a490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d67d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d67f90>]}
+
+
+============================== 14:56:15.974694 | 71a8d893-eb9f-4fd6-a1ea-e25bcaab7fb6 ==============================
+[0m14:56:15.974694 [info ] [MainThread]: Running with dbt=1.8.4
+[0m14:56:15.974982 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/mohamedeltedawy/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init dbtproject', 'send_anonymous_usage_stats': 'True'}
+[0m14:56:15.982031 [debug] [MainThread]: Starter project path: /Users/mohamedeltedawy/learning/airflow-bigquery-dbt/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m14:56:15.986006 [info ] [MainThread]: 
+Your new dbt project "dbtproject" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:56:15.986178 [info ] [MainThread]: Setting up your profile.
+[0m14:58:24.020001 [info ] [MainThread]: Profile dbtproject written to /Users/mohamedeltedawy/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:58:24.062187 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 128.12164, "process_user_time": 0.806366, "process_kernel_time": 0.176916, "process_mem_max_rss": "198524928", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m14:58:24.063197 [debug] [MainThread]: Command `dbt init` succeeded at 14:58:24.063027 after 128.12 seconds
+[0m14:58:24.063907 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d49dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10498ad50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x100a66050>]}
+[0m14:58:24.064500 [debug] [MainThread]: Flushing usage events
+[0m15:00:44.364994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084bb510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1084f55d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1085211d0>]}
+
+
+============================== 15:00:44.367526 | 44fd65c6-3cdb-4b68-8d75-af402553a599 ==============================
+[0m15:00:44.367526 [info ] [MainThread]: Running with dbt=1.8.4
+[0m15:00:44.367809 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/mohamedeltedawy/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:00:44.374919 [info ] [MainThread]: dbt version: 1.8.4
+[0m15:00:44.375169 [info ] [MainThread]: python version: 3.11.6
+[0m15:00:44.375310 [info ] [MainThread]: python path: /Users/mohamedeltedawy/learning/airflow-bigquery-dbt/.venv/bin/python
+[0m15:00:44.375432 [info ] [MainThread]: os info: macOS-14.5-arm64-arm-64bit
+[0m15:00:44.377809 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m15:00:44.968565 [info ] [MainThread]: Using profiles dir at /Users/mohamedeltedawy/.dbt
+[0m15:00:44.968796 [info ] [MainThread]: Using profiles.yml file at /Users/mohamedeltedawy/.dbt/profiles.yml
+[0m15:00:44.968946 [info ] [MainThread]: Using dbt_project.yml file at /Users/mohamedeltedawy/learning/airflow-bigquery-dbt/dbt_project.yml
+[0m15:00:44.969079 [info ] [MainThread]: Configuration:
+[0m15:00:44.969189 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m15:00:44.969293 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:00:44.969401 [info ] [MainThread]: Required dependencies:
+[0m15:00:44.969550 [debug] [MainThread]: Executing "git --help"
+[0m15:00:44.983958 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:00:44.984372 [debug] [MainThread]: STDERR: "b''"
+[0m15:00:44.984506 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:00:44.984641 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m15:00:44.984829 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:00:44.984941 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbtlearn", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+
+
+[0m15:00:44.985078 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/mohamedeltedawy/learning/airflow-bigquery-dbt/dbt_project.yml> not found
+
+[0m15:00:44.987172 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.649169, "process_user_time": 0.792344, "process_kernel_time": 0.171538, "process_mem_max_rss": "199917568", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m15:00:44.987441 [debug] [MainThread]: Command `dbt debug` failed at 15:00:44.987395 after 0.65 seconds
+[0m15:00:44.987666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083c87d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10420e390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ed4fd90>]}
+[0m15:00:44.987872 [debug] [MainThread]: Flushing usage events
