@@ -1,2 +1,4 @@
 __pycache__/
 .venv
+include/dataset/Online_Retail.csv
+include/gcp-cloud/gcp-cloud.json
