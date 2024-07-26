@@ -20,7 +20,7 @@ the process of extracting data from a local device, uploading it to Google Cloud
 4. **Data Transformation**: dbt is used to create dimension and fact tables in the BigQuery data warehouse.
 5. **Data Visualization**: The transformed data is used to create a dashboard.
 
-![Architecture Diagram](path/to/architecture-diagram.png)
+![Architecture Diagram](airflow_dbt.png)
 
 ## Setup
 1. **Prerequisites**:
@@ -31,35 +31,3 @@ the process of extracting data from a local device, uploading it to Google Cloud
    - BigQuery
    - Google Cloud Storage
 
-2. **Installation**:
-   - Clone the repository:
-     ```bash
-     git clone https://github.com/yourusername/your-repo-name.git
-     cd your-repo-name
-     ```
-   - Install required Python packages:
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - Set up Airflow:
-     ```bash
-     airflow db init
-     airflow webserver --port 8080
-     airflow scheduler
-     ```
-   - Configure dbt:
-     - Create a `profiles.yml` file with your BigQuery credentials.
-     - Initialize a new dbt project:
-       ```bash
-       dbt init my_project
-       ```
-
-## Airflow Pipeline
-The Airflow pipeline is defined in the `dags` folder. It includes tasks for:
-- Extracting data from the local device.
-- Uploading data to Google Cloud Storage.
-- Loading data into BigQuery.
-
-To trigger the pipeline, use the Airflow web interface or the CLI:
-```bash
-airflow trigger_dag my_data_pipeline
