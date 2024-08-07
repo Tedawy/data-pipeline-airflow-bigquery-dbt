@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: retail_data
+    tables:
+      - name: 'sales'
+        description: Daily sales data covering 2017-2019.
+      - name: 'products'
+        description: Data containing the hierarchy and sizes of the products.
+      - name: 'stores'
+        description: Data containing the city, type and size information of the stores
+
