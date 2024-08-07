@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
 - [Architecture](#architecture)
 - [Setup](#setup)
-- [Astro CLI](#Astro CLI)
+- [Astro CLI](#Astro-CLI)
 - [DBT Transformation](#dbt-transformation)
 - [Dashboard Creation](#dashboard-creation)
 
@@ -20,7 +20,7 @@ the process of extracting data from a local device, uploading it to Google Cloud
 4. **Data Transformation**: dbt is used to create dimension and fact tables in the BigQuery data warehouse.
 5. **Data Visualization**: The transformed data is used to create a dashboard.
 
-![Architecture Diagram](airflow_dbt.png)
+![Architecture Diagram](images/airflow_dbt.png)
 
 ## Setup
 
@@ -51,7 +51,7 @@ the process of extracting data from a local device, uploading it to Google Cloud
     pip install dbt-bigquery
     ```
 
-## Astro CLI Pipeline
+## Astro CLI
 
 ### Objective
 Automate the entire workflow using Astro CLI
@@ -156,10 +156,10 @@ The DAGs include the following types of tasks:
 
 ### DAGs Execution Success
 - retail dag 
-![DAG Run Successfully](airflow-tasks.png)
+![DAG Run Successfully](images/airflow-tasks.png)
 
 - cosmos dag (dbt)
-![DAG Run Successfully](dbt-tables.png)
+![DAG Run Successfully](images/dbt-tables.png)
 
 ## DBT Transformation
 
@@ -266,7 +266,7 @@ Transform and structure data within BigQuery using dbt to create a star schema d
     ```bash
     dbt run
     ```
-![Data warehouse](data-warehouse.png)
+![Data warehouse](images/data-warehouse.png)
 
 
 ## Dashboard Creation
@@ -279,7 +279,7 @@ Use Looker to create visual reports and dashboards based on the data warehouse.
 - **Dashboard Link**: [View Dashboard](https://lookerstudio.google.com/u/0/reporting/0628183e-1453-4452-b5bc-ddb63890b35d/page/KbO7D)
 
 - **Screenshot**:
-  ![Dashboard Screenshot](dashboard-screenshot.png)
+  ![Dashboard Screenshot](images/dashboard-screenshot.png)
 
 
 ## Conclusion

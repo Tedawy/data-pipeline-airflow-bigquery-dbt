@@ -4,5 +4,12 @@ __pycache__/
 .idea
 .env
 .DS_Store
-include/dataset/Online_Retail.csv
+include/dataset/*.csv
 include/gcp-cloud/gcp-cloud.json
+*.json
+*.csv
+.airflowignore
+logs
+.dockerignore
+include
+tests
